@@ -5,3 +5,8 @@ const enc =  getEncoding('gpt2')
 const encoded = enc.encode("hello,i am shubham")
 
 console.log(encoded)
+
+const decoded  = enc.decode(encoded)
+
+console.log(decoded)
+
